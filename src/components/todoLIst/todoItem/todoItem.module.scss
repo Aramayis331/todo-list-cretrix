@@ -1,0 +1,31 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .divEditRemove {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        width: 100%;
+        .divEdit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+        .edit, .save {
+               color: blue;
+               cursor: pointer;
+               margin-right: 10px;
+               
+        }
+        .remove {
+            color: red;
+            cursor: pointer;
+        }
+        .cancel {
+            cursor: pointer;
+            color: gray;
+        }
+        
+    }
+}
